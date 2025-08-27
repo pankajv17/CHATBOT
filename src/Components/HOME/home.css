@@ -1,0 +1,64 @@
+.Home-container{
+    display: grid;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin: 10 auto;
+    padding: 20px;
+    height: 72vh;
+
+}
+
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius:50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.chat-container{
+    background:#f6f6f6
+    ;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.query{
+    padding: 10px;
+    font-weight: 900;
+    font-size: 20px;
+}
+.copy{
+    right: 20px;
+    top: 20px;
+    display: flex;
+    
+    background: rgb(191, 189, 189);
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    
+
+}
+.copy-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+.home{
+    overflow-y: scroll;
+    background:linear-gradient(135deg, #c1d6d0, #abb3b8);
+
+}
+.glori-text {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #100f0f;
+  }
